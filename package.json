@@ -1,0 +1,79 @@
+{
+  "name": "webpack-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack --config webpack.config.js",
+    "dll": "webpack --config webpack.dll.js",
+    "dev": "webpack-dev-serve --open",
+    "start": "webpack serve --mode development --env development",
+    "sw": "http-server build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "add-asset-html-webpack-plugin": "^3.1.3",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.8.3",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^4.5.0",
+    "http-server": "^0.12.3",
+    "less": "^3.12.2",
+    "less-loader": "^7.1.0",
+    "mini-css-extract-plugin": "^1.3.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^4.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^2.0.0",
+    "thread-loader": "^3.0.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "vue": "^3.0.5"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome verison",
+      "last 1 firefox verison",
+      "last 1 safari verison"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": "airbnb-base",
+    "rules": {
+      "no-console": 0
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
+  },
+  "sideEffects": [
+    "*.css",
+    "*.less"
+  ]
+}

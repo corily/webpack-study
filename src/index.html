@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpack Learning~~~</title>
+</head>
+<body>
+  <!-- 正文 -->
+  <p class="title">title content</p>
+  <span class="iconfont icon-icon-test"></span>
+  <span class="iconfont icon-icon-test1"></span>
+  <span class="iconfont icon-icon-test2"></span>
+  <span class="iconfont icon-icon-test3"></span>
+  <button id="btn">add</button>
+  <div class="img1"></div>
+  <div class="img2"></div>
+  <div class="img3"></div>
+  <img src="./assets/imgs/angular.jpg" alt="">
+  <div id="app">
+    <p>333</p>
+    {{ msg }}
+  </div>
+  <!-- 使用CDN的JS文件  webpack里设置了externals -->
+  <script src="https://unpkg.com/vue@next"></script>
+  <!-- <% for (var i in htmlWebpackPlugin.options.cdn &&
+  htmlWebpackPlugin.options.cdn.js) { %>
+  <script
+    type="text/javascript"
+    src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"
+  ></script>
+  <% } %> -->
+</body>
+</html>

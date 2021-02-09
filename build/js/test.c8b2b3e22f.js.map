@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://webpack-learning/./src/test.js"],"names":["add","a","b","console","log"],"mappings":"MAAA,IAAMA,EAAM,SAACC,EAAGC,GAAJ,OAAUD,EAAIC,GAE1BF,EAAI,GAAI,IAERG,QAAQC,IAAI,QAASJ,EAAI,EAAG,M","file":"js/test.c8b2b3e22f.js","sourcesContent":["const add = (a, b) => a + b;\n\nadd(33, 33);\n\nconsole.log('add: ', add(1, 22));\n"],"sourceRoot":""}

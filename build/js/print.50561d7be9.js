@@ -1,0 +1,1 @@
+(self.webpackChunkwebpack_learning=self.webpackChunkwebpack_learning||[]).push([[740],{1370:(n,e,l)=>{"use strict";l.r(e),l.d(e,{add:()=>r,mul:()=>a,default:()=>u}),console.log("print.js reloading~~~~");var r=function(n,e){return n+e},a=function(n,e){return n*e};function u(){console.log("print default reloading~~")}}}]);

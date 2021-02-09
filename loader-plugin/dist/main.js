@@ -1,0 +1,1 @@
+console.log("loader plugin~~~~~~~~~~"),console.log(new class{constructor(o){this.name=o}setName(o){this.name=o}}("coco111"));

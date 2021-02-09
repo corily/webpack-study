@@ -1,0 +1,25 @@
+{
+  "name": "loader-plugin",
+  "version": "1.0.0",
+  "description": "自定义loader插件",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^4.5.0",
+    "webpack": "^5.21.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "globby": "^11.0.1",
+    "loader-utils": "^2.0.0",
+    "schema-utils": "^3.0.0",
+    "tapable": "^2.2.0",
+    "util": "^0.12.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debugger": "node --inspect-brk ./node_modules/webpack/bin/webpack.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

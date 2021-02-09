@@ -1,0 +1,3 @@
+- class plugin
+  - apply compiler
+  - add md file into assets dir
